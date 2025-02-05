@@ -41,11 +41,11 @@ html {
   
   .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    background-color: #45AF9F;  
-  }
+    background-color: #45AF9F;
+}
 
   .header-container h1 {
     margin: 4px 0 0 10px
@@ -60,20 +60,54 @@ html {
     align-items: center;
     width: 100%;
     justify-content: space-between;
-  }
+    gap: 20px; /* Espacio entre los elementos */
+}
 
   .header-text {
     display: flex;
     flex-direction: column;
   }
 
+  .intro-container {
+    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+    text-align: center; /* Centra el texto dentro del espacio */
+}
+
+.intro-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--azul);
+    max-width: 500px; /* Para evitar que el texto se alargue demasiado */
+}
+
   .logo {
     height: 50px;  
     width: auto;
-  }
- 
+}
 
   /* ====== ESTILOS DEL HEADER ====== */
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre la foto y el texto */
+}
+
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+h1, p {
+  margin: 0; /* Elimina márgenes adicionales */
+}
+
   .header-container {
     display: flex;
     justify-content: space-between;
