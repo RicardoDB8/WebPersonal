@@ -77,7 +77,8 @@ html {
     font-size: 14px;
     font-weight: 500;
     color: var(--azul);
-    max-width: 500px; /* Para evitar que el texto se alargue demasiado */
+    max-width: 900px; /* Para evitar que el texto se alargue demasiado */
+    
 }
 
   .logo {
