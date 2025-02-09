@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="./styles/app.css" />
+    <title>RDB</title>
+</head>
+<body>
+    <header id="header" class="header-container">
+        <div class="header-content">
+            <!-- Contenedor del perfil -->
+            <div class="profile-container">
+                <img src="./styles/mi_foto.jpg" alt="Foto de Ricardo Bertarini" class="profile-photo">
+                <div class="profile-text">
+                    <h1>Ricardo Bertarini</h1>
+                    <p>Especialista de procesos Mirgor UNPE</p>
+                </div>
+            </div>
+    
+            <!-- Contenedor del párrafo en el centro -->
+            <div class="intro-container">
+                <p id="header-text" class="intro-text">
+                    
+                </p>
+            </div>
+    
+            <!-- Logo de Mirgor a la derecha -->
+            <img src="./styles/Mirgor_company_logo.png" alt="Logo de Mirgor" class="logo">
+        </div>
+    </header>
+    
+<!-- Menú de navegación -->
+<nav class="nav-menu">
+    <ul>
+        <li><a href="#" onclick="showContent('referencias')">Referencias</a></li>
+        <li><a href="#" onclick="showContent('lean')">Lean</a></li>
+        <li><a href="#" onclick="showContent('herramientas')">Herramientas</a></li>
+        <li><a href="#" onclick="showContent('proyectos')">Proyectos</a></li>
+        <li><a href="#" onclick="showContent('habitos-japoneses')">Habitos Japoneses</a></li>
+        <li><a href="#" onclick="showContent('calculadora')">Calculadora</a></li>
+        <li><a href="#" onclick="showContent('capacitaciones')">Capacitaciones</a></li>
+    </ul>
+</nav>
+
+
+    <!-- Contenedor donde se cargarán los contenidos -->
+    <div id="content-container">
+        <h2>Bienvenido</h2>
+        <p>Selecciona una opción del menú para ver el contenido.</p>
+    </div>
+<!-- Habitos Japoneses -->
+
+<section class="concept-section" aria-label="Hábitos Japoneses">
+    <h2>Hábitos Japoneses para una Vida Mejor</h2>
+
+    <article class="concept">
+        <h3>Kaizen (Mejora Continua)</h3>
+        <ul>
+            <li>Filosofía de mejora constante en pequeñas acciones diarias.</li>
+        <li>Se aplica en la vida personal y profesional para ser más eficiente y productivo.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Shikita ga nai (Aceptar lo inevitable)</h3>
+        <ul>
+            <li>Significa "no se puede evitar", promoviendo la aceptación de lo que no se puede cambiar.</li>
+            <li>Ayuda a centrarse en lo que sí se puede mejorar en lugar de lamentarse.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Gaman (Paciencia y Resiliencia)</h3>
+        <ul>
+            <li>Se traduce como "soportar con dignidad".</li>
+            <li>Enseña a mantener la calma en tiempos difíciles y a no rendirse.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Oosouji (Gran limpieza anual)</h3>
+        <ul>
+            <li>Es la tradición de limpiar profundamente la casa al final del año.</li>
+            <li>Se asocia con el desapego y la purificación del espacio y la mente.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Ikigai (Razón de ser)</h3>
+        <ul>
+            <li>Es el propósito de vida que da motivación y sentido a las acciones diarias.</li>
+            <li>Se encuentra en la intersección entre lo que amas, en lo que eres bueno, lo que el mundo necesita y por lo que pueden pagarte.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Wabi-Sabi (Belleza en la imperfección)</h3>
+        <ul>
+            <li>Aprecia la belleza de lo simple, lo rústico y lo efímero.</li>
+            <li>Enseña a valorar la imperfección y el paso del tiempo.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Hara Hachi Bu (Comer hasta estar 80% lleno)</h3>
+        <ul>
+            <li>Regla de alimentación que ayuda a evitar el exceso y mantener la salud.</li>
+            <li>Se practica en Okinawa, donde hay una de las mayores tasas de longevidad.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Kintsugi (El arte de reparar con oro)</h3>
+        <ul>
+            <li>Técnica de reparación de cerámica donde las grietas se resaltan con oro.</li>
+            <li>Simboliza que las cicatrices y errores hacen parte de la historia y pueden ser valiosos.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Kakebo</h3>
+        <ul>
+            <li>Método japonés para la gestión eficiente de las finanzas personales.</li>
+            <li>Ayuda a controlar los gastos y fomentar el ahorro de manera organizada.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Nemawashi (Preparación y consenso previo)</h3>
+        <ul>
+            <li>Consiste en construir acuerdos antes de tomar una decisión importante.</li>
+            <li>Muy usado en la cultura empresarial para evitar conflictos.</li>
+        </ul>
+    </article>
+    <article class="concept">
+        <h3>Ichigo Ichie - "Una vez, un encuentro"</h3>
+        <ul>
+            <li>Significa que cada momento es único y no se repetirá jamás.</li>
+            <li>Nos invita a vivir el presente con plena conciencia y gratitud.</li>
+            <li>Proviene de la ceremonia del té, donde cada encuentro es irrepetible.</li>
+            <li>Se aplica en la vida diaria para valorar cada conversación, experiencia o instante.</li>
+            <li><strong>Ejemplo:</strong> Disfrutar una comida con amigos sin distracciones, como si fuera la última vez que pudieras compartir con ellos.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Wabi-Sabi - "Belleza en la imperfección"</h3>
+        <ul>
+            <li>Filosofía estética y de vida que aprecia lo simple, lo rústico y el paso del tiempo.</li>
+            <li>Wabi se refiere a la simplicidad, la sobriedad y la conexión con la naturaleza.</li>
+            <li>Sabi se refiere a la belleza de la impermanencia, el envejecimiento y las cicatrices.</li>
+            <li>Nos enseña a aceptar la vida con sus imperfecciones y a ver la belleza en lo natural.</li>
+            <li><strong>Ejemplo:</strong> Una taza de cerámica con grietas, una madera envejecida o la belleza de una hoja marchita en otoño.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Shinrin Yoku - "Baño de bosque"</h3>
+        <ul>
+            <li>Práctica de sumergirse en la naturaleza para mejorar la salud mental y física.</li>
+            <li>Consiste en caminar lentamente por un bosque o parque, respirando profundamente.</li>
+            <li>Reduce el estrés, mejora el estado de ánimo y fortalece el sistema inmunológico.</li>
+            <li>Se basa en estudios que muestran que los árboles emiten compuestos beneficiosos para la salud.</li>
+            <li><strong>Ejemplo:</strong> Caminar descalzo por el césped, respirar el aroma de los pinos o escuchar el sonido de los pájaros en un bosque.</li>
+        </ul>
+    </article>
+
+    <article class="concept">
+        <h3>Ganbatte - "Esfuérzate al máximo"</h3>
+        <ul>
+            <li>Es una forma de animar a alguien a que no se rinda y a que persiga sus objetivos. </li>
+            <li>Ganbatte es una filosofía de vida que se basa en la perseverancia, el coraje y la determinación. Para los japoneses, es más importante el esfuerzo que el éxito. </li>
+            <li>Ganbatte se usa en muchas situaciones, como antes de un examen, una entrevista de trabajo o una competición. </li>
+            <li><strong>Ganbatte kudasai</strong> es una forma más formal de decir ganbatte. </li>
+            <li><strong>Ejemplo:</strong> Ganbarimasu es una expresión que significa "haré lo mejor que pueda". Se usa a menudo como respuesta a ganbatte. </li>
+        </ul>
+    </article>
+
+</section>
+
+<!-- Calculadora -->
+<div class="calculator">
+    <input type="text" class="screen" id="screen" disabled>
+    <div class="buttons">
+        <button onclick="clearScreen()" class="clear">C</button>
+        <button onclick="appendValue('/')" class="operator">/</button>
+        <button onclick="appendValue('*')" class="operator">*</button>
+        <button onclick="appendValue('-')" class="operator">-</button>
+        
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('+')" class="operator">+</button>
+        
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="calculateResult()" class="equal">=</button>
+        
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('0')">0</button>
+    </div>
+</div>
+
+
+
+
+    <script src="./src/main.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>

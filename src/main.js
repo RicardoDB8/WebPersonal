@@ -1,5 +1,3 @@
-
-
 // Calculadora 
 function appendValue(value) {
     document.getElementById('screen').value += value;
@@ -18,11 +16,10 @@ function calculateResult() {
     }
 }
 
-
 // Textos aleatorios en el parrafo del header
 const parrafos = [
     "La paciencia es la clave del éxito.",
-    "El conocimiento es poder.",
+    "Las ventajas no son permanentes.",
     "El trabajo en equipo nos lleva más lejos.",
     "Aprender es un viaje sin final.",
     "Cada error es una oportunidad de mejorar.",
