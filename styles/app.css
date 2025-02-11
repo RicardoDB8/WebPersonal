@@ -168,6 +168,50 @@ h1, p {
   border-radius: 5px;
 }
 
+ /* Estilos del menú */
+ ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul li {
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  background-color: #141736;
+  color: #333;
+}
+
+
+/* Estilos del submenú */
+.submenu {
+  display: none;  /* Los submenús inician ocultos */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #141736;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 180px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li a {
+  padding: 8px 12px;
+  background-color: #141736;
+  color: #f1ebeb;
+}
+
+.submenu li a:hover {
+  background-color: #141736;
+}
 
 /* Calculadora 
 

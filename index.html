@@ -36,13 +36,40 @@
         
         <ul>
             <li><a href="#" onclick="reloadPage(event)">🏠</a></li>
-            <li><a href="#" onclick="loadContent('referencias', event)">Referencias</a></li>
+            
+            <li>
+                <a href="#" onclick="toggleSubmenu(event, 'submenu-referencias')">Referencias ▾</a>
+                <ul id="submenu-referencias" class="submenu">
+                    <li><a href="#" onclick="loadContent('5s', event)">5S</a></li>
+                    <li><a href="#" onclick="loadContent('kaizen', event)">Kaizen</a></li>
+                    <li><a href="#" onclick="loadContent('fmea', event)">FMEA</a></li>
+                </ul>
+            </li>
+        
             <li><a href="#" onclick="loadContent('lean', event)">Lean</a></li>
-            <li><a href="#" onclick="loadContent('herramientas', event)">Herramientas</a></li>
+            
+            <li>
+                <a href="#" onclick="toggleSubmenu(event, 'submenu-herramientas')">Herramientas ▾</a>
+                <ul id="submenu-herramientas" class="submenu">
+                    <li><a href="#" onclick="loadContent('5s', event)">5S</a></li>
+                    <li><a href="#" onclick="loadContent('kaizen', event)">Kaizen</a></li>
+                    <li><a href="#" onclick="loadContent('fmea', event)">FMEA</a></li>
+                </ul>
+            </li>
+        
             <li><a href="#" onclick="loadContent('proyectos', event)">Proyectos</a></li>
             <li><a href="#" onclick="loadContent('habitos-japoneses', event)">Hábitos Japoneses</a></li>
-            <li><a href="#" onclick="loadContent('calculos', event)">Calculos</a></li>
+            <li><a href="#" onclick="loadContent('calculos', event)">Cálculos</a></li>
             <li><a href="#" onclick="loadContent('capacitaciones', event)">Capacitaciones</a></li>
+        
+            <li>
+                <a href="#" onclick="toggleSubmenu(event, 'submenu-tematicas')">Temáticas ▾</a>
+                <ul id="submenu-tematicas" class="submenu">
+                    <li><a href="#" onclick="loadContent('tematicas', event)">Tematicas</a></li>
+                    <li><a href="#" onclick="loadContent('efecto-mandela', event)">Efecto Mandela</a></li>
+                    <li><a href="#" onclick="loadContent('efecto-dunning-kruger', event)">Efecto Dunning-Kruger</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
 
